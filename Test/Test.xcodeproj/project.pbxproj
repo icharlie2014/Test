@@ -14,6 +14,7 @@
 		E7F43B681B097B7700170DE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7F43B671B097B7700170DE3 /* Images.xcassets */; };
 		E7F43B6B1B097B7700170DE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F43B691B097B7700170DE3 /* LaunchScreen.xib */; };
 		E7F43B771B097B7700170DE3 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F43B761B097B7700170DE3 /* TestTests.m */; };
+		E7F43B851B097DB300170DE3 /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F43B841B097DB300170DE3 /* Empty.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		E7F43B701B097B7700170DE3 /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F43B751B097B7700170DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7F43B761B097B7700170DE3 /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		E7F43B841B097DB300170DE3 /* Empty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Empty.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				E7F43B5F1B097B7700170DE3 /* AppDelegate.m */,
 				E7F43B611B097B7700170DE3 /* ViewController.h */,
 				E7F43B621B097B7700170DE3 /* ViewController.m */,
+				E7F43B841B097DB300170DE3 /* Empty.xib */,
 				E7F43B641B097B7700170DE3 /* Main.storyboard */,
 				E7F43B671B097B7700170DE3 /* Images.xcassets */,
 				E7F43B691B097B7700170DE3 /* LaunchScreen.xib */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7F43B661B097B7700170DE3 /* Main.storyboard in Resources */,
+				E7F43B851B097DB300170DE3 /* Empty.xib in Resources */,
 				E7F43B6B1B097B7700170DE3 /* LaunchScreen.xib in Resources */,
 				E7F43B681B097B7700170DE3 /* Images.xcassets in Resources */,
 			);
@@ -416,6 +420,7 @@
 				E7F43B7C1B097B7700170DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7F43B7D1B097B7700170DE3 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				E7F43B7F1B097B7700170DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
