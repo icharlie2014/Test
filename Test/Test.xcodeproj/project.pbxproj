@@ -14,6 +14,7 @@
 		E7F43BA21B09809000170DE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7F43BA11B09809000170DE3 /* Images.xcassets */; };
 		E7F43BA51B09809000170DE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7F43BA31B09809000170DE3 /* LaunchScreen.xib */; };
 		E7F43BB11B09809000170DE3 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F43BB01B09809000170DE3 /* TestTests.m */; };
+		E7F43BBD1B09817E00170DE3 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F43BBC1B09817E00170DE3 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		E7F43BAA1B09809000170DE3 /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F43BAF1B09809000170DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7F43BB01B09809000170DE3 /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		E7F43BBC1B09817E00170DE3 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				E7F43B991B09809000170DE3 /* AppDelegate.m */,
 				E7F43B9B1B09809000170DE3 /* ViewController.h */,
 				E7F43B9C1B09809000170DE3 /* ViewController.m */,
+				E7F43BBC1B09817E00170DE3 /* Storyboard.storyboard */,
 				E7F43B9E1B09809000170DE3 /* Main.storyboard */,
 				E7F43BA11B09809000170DE3 /* Images.xcassets */,
 				E7F43BA31B09809000170DE3 /* LaunchScreen.xib */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7F43BA01B09809000170DE3 /* Main.storyboard in Resources */,
+				E7F43BBD1B09817E00170DE3 /* Storyboard.storyboard in Resources */,
 				E7F43BA51B09809000170DE3 /* LaunchScreen.xib in Resources */,
 				E7F43BA21B09809000170DE3 /* Images.xcassets in Resources */,
 			);
@@ -416,6 +420,7 @@
 				E7F43BB61B09809000170DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7F43BB71B09809000170DE3 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				E7F43BB91B09809000170DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
